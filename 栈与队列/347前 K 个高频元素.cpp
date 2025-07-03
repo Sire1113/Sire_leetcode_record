@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
+        // 小顶堆的优先队列
         auto mycmp = [](pair<int, int>& left, pair<int, int>& right){
             return left.second > right.second;
         };
