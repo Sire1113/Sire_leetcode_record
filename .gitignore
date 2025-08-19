@@ -1,0 +1,4 @@
+cmake-build-*
+.idea
+armadillo-14.6.0
+lepack
